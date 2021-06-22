@@ -1,7 +1,7 @@
 <template>
   <div class="w-50 mx-auto mt-5">
     <h1 class="mb-5 text-center">Форма обратной связи</h1>
-    <form class="p-4" ref="feedBackForm">
+    <form class="feedback-form p-4" ref="feedBackForm">
       <div class="form-group mb-4">
         <label class="h3" for="exampleInputEmail1">Имя</label>
         <input

@@ -1,14 +1,14 @@
-form{
+.feedback-form{
     border-radius: 5px;
     box-shadow: 0px 0px 0px 0px rgb(83 83 83 / 50%);
     transition: box-shadow .5s;
 
 }
-form > .form-group{
+.feedback-form > .form-group{
     position: relative;
 }
 
-form:hover{
+.feedback-form:hover{
     box-shadow: 1px 2px 14px 3px rgb(83 83 83 / 50%);
 }
 
@@ -19,46 +19,22 @@ form:hover{
     text-align: center;
 }
 
-// #toast-container{
-
-// }
-// .toast-info,
-
-
-// .toast-info{
-
-// }
-
 #toast-container .toast > .toast-message{
     font-size: 1.4rem;
     text-align: justify;
-//     width: 600px!important;
 }
 
-#toast-container > .toast-info {
+#toast-container > .toast-info,
+#toast-container > .toast-error,
+#toast-container > .toast-success,
+#toast-container > .toast-warning {
     background-image: none!important;
-  }
-  #toast-container > .toast-error {
-    background-image: none!important;
-  }
-  #toast-container > .toast-success {
-    background-image: none!important;
-  }
-  #toast-container > .toast-warning {
-    background-image: none!important;
-  }
+}
 
-  .container #toast-container > div,
-  .container #toast-container .toast{
-    padding: 15px 20px;
-  }
-  #toast-container > div {
-    width: 600px;
-  }
-
-  // #toast-container > .toastr-error,
-  // #toast-container > .toastr-info,
-  // #toast-container > .toastr-success,
-  // #toast-container > .toastr-warning{
-  //   width: 600px!important;
-  // }
+.container #toast-container > div,
+.container #toast-container .toast{
+  padding: 15px 20px;
+}
+#toast-container > div {
+  width: 600px;
+}
