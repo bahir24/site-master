@@ -20,3 +20,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+    /*
+    |--------------------------------------------------------------------------|
+    |                                  References                              |
+    |--------------------------------------------------------------------------|
+    */
+    Route::prefix('references')->name('references.')->group(function () {
+        Route::post('store', 'App\Http\Controllers\ReferenceController@store')->name('store');
+    });
+

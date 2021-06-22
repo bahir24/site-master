@@ -30,3 +30,5 @@ Vue.component('feedback-form', require('./components/FeedbackForm.vue').default)
 const app = new Vue({
     el: '#app',
 });
+
+require('./toastr');

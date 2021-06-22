@@ -1,0 +1,41 @@
+toastr.options = {
+"closeButton": false,
+"closeMethod": 'fadeOut',
+"closeEasing": 'swing',
+"extendedTimeOut": 60, // How long the toast will display after a user hovers over it
+"progressBar": false,
+
+
+"tapToDismiss": true,
+"toastClass": 'toast',
+"containerId": 'toast-container',
+"debug": false,
+"showMethod": 'fadeIn', //fadeIn, slideDown, and show are built into jQuery
+"showEasing": 'swing', //swing and linear are built into jQuery
+"onShown": undefined,
+"hideMethod": 'fadeOut',
+"hideDuration": 50000,
+"hideEasing": 'swing',
+"onHidden": undefined,
+"closeMethod": false,
+"closeDuration": false,
+"closeEasing": false,
+"closeOnHover": false,
+"error": 'toast-error',
+"info": 'toast-info',
+"success": 'toast-success',
+"warning": 'toast-warning',
+"iconClass": 'toast-info',
+"positionClass": 'toast-top-left',
+"timeOut": 5000,
+"titleClass": 'toast-title',
+"messageClass": 'toast-message',
+"escapeHtml": false,
+"target": '.container',
+"closeHtml": '<button type="button">&times,</button>',
+"closeClass": 'toast-close-button',
+"newestOnTop": true,
+"preventDuplicates": false,
+"progressBar": false,
+"progressClass": 'toast-progress',
+};
